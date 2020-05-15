@@ -7,11 +7,6 @@ nome = ['Will', 'Paulo', 'Fábio', 'Pedro', 'Tiago']
 
 default_nome = defaultdict(lambda: iter(nome))
 
-
-def get_name(key):
-    return next(default_nome[key])
-
-
 nav = Firefox()
 
 nav.get('https://selenium.dunossauro.live/exercicio_06.html')
@@ -26,11 +21,11 @@ while True:
 
         break
 
-    t = nav.find_element_by_css_selector(f'.form-{target_txt} [type=text]')
-
-    n = get_name(target_txt)
+    n = next(default_nome[target_txt])
 
     print(target_txt, ' ', n)
+
+    t = nav.find_element_by_css_selector(f'.form-{target_txt} [type=text]')
 
     t.send_keys(n)
 
