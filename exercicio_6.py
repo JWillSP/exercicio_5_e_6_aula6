@@ -1,6 +1,6 @@
-from selenium.webdriver import Firefox
-from collections import defaultdict
 from time import sleep
+from collections import defaultdict
+from selenium.webdriver import Firefox
 
 
 nome = ['Will', 'Paulo', 'Fábio', 'Pedro', 'Tiago']
