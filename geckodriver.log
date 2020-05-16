@@ -558,3 +558,33 @@ JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't fin
 1589573848122	Marionette	INFO	Listening on port 54340
 1589573848328	Marionette	WARN	TLS certificate errors will be ignored for this session
 1589573878654	Marionette	INFO	Stopped listening on port 54340
+1589579966419	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "-marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\jw_wi\\AppData\\Local\\Temp\\rust_mozprofileo1nQ2P"
+1589579968074	addons.webextension.doh-rollout@mozilla.org	WARN	Loading extension 'doh-rollout@mozilla.org': Reading manifest: Invalid extension permission: networkStatus
+1589579969566	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: mozillaAddons
+1589579969566	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: telemetry
+1589579969567	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: resource://pdf.js/
+1589579969567	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: about:reader*
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+1589579973723	Marionette	INFO	Listening on port 56139
+1589579974071	Marionette	WARN	TLS certificate errors will be ignored for this session
+1589582806719	Marionette	INFO	Stopped listening on port 56139
+
+###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+
+ile" "C:\\Users\\jw_wi\\AppData\\Local\\Temp\\rust_mozprofileXVTuvx"
+1589582788517	addons.webextension.doh-rollout@mozilla.org	WARN	Loading extension 'doh-rollout@mozilla.org': Reading manifest: Invalid extension permission: networkStatus
+1589582790189	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: mozillaAddons
+1589582790189	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: telemetry
+1589582790189	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: resource://pdf.js/
+1589582790191	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: about:reader*
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+1589582795652	Marionette	INFO	Listening on port 58609
+1589582795774	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: https://googleads.g.doubleclick.net/pagead/ads?client=ca-pub-7212806003813280&output=html&h=90&slotname=8489615413&adk=4007994590&adf=3318133751&w=810&fwrn=4&lmt=1589582803&rafmt=10&psa=0&guci=2.2.0.0.2.2.0.0&format=810x90_0ads_al&url=https%3A%2F%2Fnomes.club%2Fnomes-populares-brasil%2F&flash=0&fwr=0&wgl=1&dt=1589582802256&bpp=34&bdt=3681&idt=673&shv=r20200511&cbv=r20190131&ptt=9&saldr=aa&abxe=1&correlator=6907686775864&frm=20&pv=2&ga_vid=672375503.1589582803&ga_sid=1589582803&ga_hid=624887633&ga_fc=0&icsg=37726975&dssz=21&mdo=0&mso=0&u_tz=-180&u_his=1&u_java=0&u_h=864&u_w=1536&u_ah=824&u_aw=1536&u_cd=24&u_nplug=0&u_nmime=0&adx=63&ady=251&biw=1266&bih=700&scr_x=0&scr_y=0&eid=21066085&oid=3&pvsid=2812375162165588&pem=896&rx=0&eae=0&fc=896&brdim=3%2C3%2C3%2C3%2C1536%2C0%2C1294%2C779%2C1283%2C700&vis=1&rsz=%7C%7CeE%7C&abl=CS&pfx=0&fu=8336&bc=29&ifi=1&uci=a!1&xpc=UkHqUSjQYG&p=https%3A//nomes.club&dtd=975, line 1: ReferenceError: buildAttribution is not defined
+JavaScript error: https://googleads.g.doubleclick.net/pagead/ads?client=ca-pub-7212806003813280&output=html&h=250&slotname=1310083455&adk=459558750&adf=3401613945&w=300&lmt=1589582803&psa=0&guci=2.2.0.0.2.2.0.0&format=300x250&url=https%3A%2F%2Fnomes.club%2Fnomes-populares-brasil%2F&flash=0&wgl=1&dt=1589582802256&bpp=41&bdt=3681&idt=740&shv=r20200511&cbv=r20190131&ptt=9&saldr=aa&abxe=1&prev_fmts=810x90_0ads_al&correlator=6907686775864&frm=20&pv=1&ga_vid=672375503.1589582803&ga_sid=1589582803&ga_hid=624887633&ga_fc=0&icsg=574597887&dssz=22&mdo=0&mso=0&u_tz=-180&u_his=1&u_java=0&u_h=864&u_w=1536&u_ah=824&u_aw=1536&u_cd=24&u_nplug=0&u_nmime=0&adx=318&ady=1320&biw=1266&bih=700&scr_x=0&scr_y=0&eid=21066085&oid=3&pvsid=2812375162165588&pem=896&rx=0&eae=0&fc=896&brdim=3%2C3%2C3%2C3%2C1536%2C0%2C1294%2C779%2C1283%2C700&vis=1&rsz=%7C%7CeEbr%7C&abl=CS&pfx=0&fu=8208&bc=29&ifi=2&uci=a!2&btvi=1&xpc=86HzN4pDBf&p=https%3A//nomes.club&dtd=1021, line 1: ReferenceError: buildAttribution is not defined
+JavaScript error: https://googleads.g.doubleclick.net/pagead/ads?client=ca-pub-7212806003813280&output=html&h=250&slotname=1310083455&adk=459558750&adf=3401613945&w=300&lmt=1589582803&psa=0&guci=2.2.0.0.2.2.0.0&format=300x250&url=https%3A%2F%2Fnomes.club%2Fnomes-populares-brasil%2F&flash=0&wgl=1&dt=1589582802256&bpp=41&bdt=3681&idt=740&shv=r20200511&cbv=r20190131&ptt=9&saldr=aa&abxe=1&prev_fmts=810x90_0ads_al&correlator=6907686775864&frm=20&pv=1&ga_vid=672375503.1589582803&ga_sid=1589582803&ga_hid=624887633&ga_fc=0&icsg=574597887&dssz=22&mdo=0&mso=0&u_tz=-180&u_his=1&u_java=0&u_h=864&u_w=1536&u_ah=824&u_aw=1536&u_cd=24&u_nplug=0&u_nmime=0&adx=318&ady=1320&biw=1266&bih=700&scr_x=0&scr_y=0&eid=21066085&oid=3&pvsid=2812375162165588&pem=896&rx=0&eae=0&fc=896&brdim=3%2C3%2C3%2C3%2C1536%2C0%2C1294%2C779%2C1283%2C700&vis=1&rsz=%7C%7CeEbr%7C&abl=CS&pfx=0&fu=8208&bc=29&ifi=2&uci=a!2&btvi=1&xpc=86HzN4pDBf&p=https%3A//nomes.club&dtd=1021, line 1: ReferenceError: googqscp is not defined
+1589582829548	Marionette	INFO	Stopped listening on port 58609
+JavaScript error: , line 0: uncaught exception: undefined
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
