@@ -1,5 +1,7 @@
 {
     "git.enabled": true,
     "python.linting.enabled": true,
-    "python.linting.flake8Enabled": true
+    "python.linting.flake8Enabled": true,
+    "python.pythonPath": "C:\\Python38\\python.exe"
+    "editor.fontFamily": "Consolas, 'Courier New', 'FantasqueSansMono', monospace "
 }
