@@ -1,11 +1,9 @@
 from time import sleep
+from scrape_names import nomes
 from collections import defaultdict
 from selenium.webdriver import Firefox
 
-
-nome = ['Will', 'Paulo', 'Fábio', 'Pedro', 'Tiago']
-
-default_nome = defaultdict(lambda: iter(nome))
+default_nome = defaultdict(lambda: iter(nomes))
 
 nav = Firefox()
 

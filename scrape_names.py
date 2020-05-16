@@ -1,21 +1,22 @@
-import re
 import requests
 from lxml import etree
-from selenium.webdriver import Firefox
-
 
 x = requests.get('https://nomes.club/nomes-populares-brasil/')
 
-print(x.text)
+tree = etree.HTML(x.text)
 
-# nav = Firefox()
+lis = tree.xpath('//ol/li//a')
 
-# nav.get('https://nomes.club/nomes-populares-brasil/')
+nomes = [li.text for li in lis]
 
-# olista = nav.find_element_by_xpath('//article//ol')
+print(nomes)
 
-# nomes = re.findall(r'\w+:', olista.text)
+y = requests.get('https://www.passwordrandom.com/most-popular-passwords')
 
-# print(nomes)
+tree2 = etree.HTML(y.text)
 
-# nav.close()
+lis2 = tree2.xpath('//tr/td[2]')
+
+senhas = [li.text for li in lis2]
+
+print(senhas)
